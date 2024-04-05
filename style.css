@@ -1,0 +1,579 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+.container {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.onlymyhealth.com/imported/images/2023/February/27_Feb_2023/main_nattyorroids.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: #413131;
+    position: sticky;
+    top: 0;
+
+}
+
+#logo {
+    height: 50px;
+    width: 120px;
+    padding: 8px 30px;
+}
+
+.header ul {
+    float: right;
+    margin-right: 30px;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-flex;
+    font-size: 17px;
+    font-family: felix titling;
+    position: relative;
+    margin: 10px 10px;
+
+}
+
+.header ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 0px;
+}
+.header ul li :after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 1;
+    bottom: 0;
+    transition: 0.5s;
+}
+.header ul li a:hover::after{
+    width: 100%;
+}
+
+.center {
+    height: 124px;
+    width: 563px;
+    margin-top: 180px;
+    text-align: center;
+    margin-left: 350px;
+
+}
+
+.main-text1 {
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    text-shadow: black 7px 7px 9px;
+
+}
+
+.main-text2 {
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    text-shadow: black 7px 7px 9px;
+
+}
+
+.second-page {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://st3.depositphotos.com/7319880/14868/i/450/depositphotos_148688961-stock-photo-young-fitness-man-in-studio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.section-page-text {
+    color: white;
+    font-family: felix titling;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: white 7px 5px 9px 2px;
+}
+
+.section-second-card {
+    height: 375px;
+    width: 472px;
+    background-color: rgb(25, 0, 87);
+    margin-top: 20px;
+    margin-left: 700px;
+    border-radius: 0px;
+}
+
+/* Second-Page-Card-Text */
+.text-big {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 38px;
+    margin-left: 31px;
+    padding-top: 15px;
+}
+
+.text-card {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 38px;
+    margin-left: 31px;
+}
+
+.para {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    margin-left: 30px;
+    padding-top: 12px;
+}
+
+.h5text {
+    color: white;
+    font-family: trebuchet ms;
+    font-size: 20px;
+    margin-left: 30px;
+    padding-top: 40px;
+}
+
+.thired-page {
+
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.Card-Service-One {
+    height: 500px;
+    width: 320px;
+    background-color: transparent;
+    margin: 42px;
+    border-radius: 5px;
+}
+
+.thired-h1 {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+.thired-h1 h1 {
+    color: white;
+    font-size: 50px;
+    padding-top: 30px;
+    font-family: felix titling;
+
+}
+
+#Card-Pics {
+    height: 350px;
+    width: 358px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+.Card-Service-One h2 {
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+.Card-Service-One h3 {
+    color: white;
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+#btn {
+    height: 33px;
+    width: 295px;
+    margin-top: 12px;
+    background: red;
+    color: white;
+    border: 1px solid white;
+    font-family: felix titling;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.section-four {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(85, 70, 70);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact-form {
+    height: 350px;
+    width: 500px;
+    background-color: red;
+
+}
+
+.section-four-pics {
+    height: 400px;
+    width: 400px;
+    background-color: red;
+}
+
+.between-section {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(85, 70, 70);
+}
+
+.between-section h1 {
+    color: whitesmoke;
+    color: white;
+    padding-top: 28px;
+    font-size: 40px;
+    font-family: felix titling;
+    text-align: center;
+
+}
+
+.contact-form {
+    margin: 12px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.contact-form #fname {
+    height: 40px;
+    width: 220px;
+    margin: 7px;
+    margin-top: 30px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-align: justify;
+}
+#fname[ type='text']{
+    padding-left: 10px;
+
+}
+#email[ type='email']{
+    padding-left: 10px;
+
+}
+.contact-form #email {
+    height: 40px;
+    width: 470px;
+    border: 1px solid black;
+    border-radius: 6px;
+    outline: none;
+}
+
+.contact-form #text {
+    width: 460px;
+    border: 1px solid black;
+    margin-top: 10px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 6px;
+    outline: none;
+}
+
+.contact-form button {
+    height: 40px;
+    width: 480px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+    font-size: 18px;
+    font-family: felix titling;
+    background-color: red;
+    color: whitesmoke;
+}
+.contact-form button:hover{
+    box-shadow: 2px 2px 10px 1px  rgb(201, 29, 29);
+    transition: 1s;
+}
+
+#piclast {
+    height: 350px;
+    width: 501px;
+    border-radius: 10px;
+}
+
+.section-five {
+    height: 270px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    background-color: black;
+}
+
+.space-between {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+.space-between h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: felix titling;
+}
+
+.contact-adress {
+    height: 150px;
+    width: 350px;
+    margin: 0px 30px;
+    margin-top: 70px;
+    text-align: start;
+    background-color: black;
+}
+
+.contact-adress h2 {
+    color: white;
+    font-family: trebuchet ms;
+}
+
+.contact-adress h3 {
+    color: white;
+    font-family: trebuchet ms;
+
+}
+#wow{
+    color: white;
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 480px) {
+    .container {
+        width: 1260px;
+        height: 1000px;
+
+    }
+
+    .second-page {
+        width: 1260px;
+        height: 1000px;
+    }
+
+    .thired-page {
+        flex-direction: column;
+        height: 4800px;
+        width: 1259px;
+    }
+
+    .thired-h1 {
+        height: 197px;
+        width: 1260px;
+        text-align: center;
+    }
+
+    .thired-h1 h1 {
+        font-size: 120px;
+    }
+
+    .Card-Service-One {
+        height: 2000px;
+        width: 1213px;
+        border: 1px solid white;
+
+    }
+
+    #Card-Pics {
+        width: 1200px;
+        height: 1060px;
+    }
+
+    .Card-Service-One h2 {
+        font-size: 80px;
+    }
+
+    .Card-Service-One h3 {
+        font-size: 90px;
+
+    }
+
+    .Card-Service-One #btn {
+        width: 1000px;
+        height: 100px;
+        font-size: 65px;
+        margin-top: 50px;
+    }
+
+    .between-section {
+        height: 206px;
+        width: 1260px;
+    }
+
+    .between-section h1 {
+        font-size: 100px;
+
+    }
+
+    .section-four {
+        width: 23px;
+        width: 1260px;
+        height: 2000px;
+        flex-direction: column;
+    }
+
+    .contact-form {
+        width: 1225px;
+        height: 900px;
+    }
+
+    .contact-form #fname {
+        height: 105px;
+        width: 1193px;
+        font-size: 56px;
+    }
+
+    .contact-form #email {
+        height: 105px;
+        width: 1193px;
+        font-size: 56px;
+        margin-top: 25px;
+    }
+
+    .contact-form #text {
+        height: 265px;
+        width: 1193px;
+        font-size: 56px;
+        margin-top: 33px;
+    }
+
+    .contact-form button {
+        width: 1000px;
+        height: 100px;
+        font-size: 65px;
+        margin-top: 42px;
+    }
+
+    .contact-form #piclast {
+
+        width: 1223px;
+        height: 900px;
+
+    }
+
+    .section-five {
+        width: 100px;
+        width: 1260px;
+        height: 2000px;
+        flex-direction: column;
+    }
+
+    .space-between {
+        height: 206px;
+        width: 1260px;
+
+    }
+
+    .space-between h1 {
+        font-size: 100px;
+        padding-top: 47px;
+    }
+
+    .contact-adress {
+        border: 1px solid wheat;
+        width: 1201px;
+        height: 1000px;
+    }
+
+    .contact-adress h2 {
+        font-size: 100px;
+    }
+
+    .contact-adress h3 {
+        font-size: 70px;
+        padding-top: 12px;
+
+    }
+
+    .center .main-text1 {
+        font-size: 100px;
+    }
+
+    .center {
+        width: 1000px;
+        margin-top: 326px;
+        margin-left: 154px;
+        height: 278px;
+    }
+
+    .center .main-text2 {
+        font-size: 73px;
+    }
+
+    .second-page .section-page-text {
+        font-size: 90px;
+        margin-right: 100px;
+
+    }
+
+    .section-second-card {
+        margin-left: 86px;
+        height: 700px;
+        width: 1000px;
+        margin-top: 86px;
+    }
+
+    .section-second-card .text-big {
+        font-size: 75px;
+    }
+
+    .section-second-card .text-card {
+        font-size: 69px;
+    }
+
+    .section-second-card .para {
+        font-size: 45px;
+    }
+    .section-second-card .h5text{
+        font-size: 74px;
+    }
+
+
+
+
+}
